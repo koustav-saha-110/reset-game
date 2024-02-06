@@ -1,3 +1,6 @@
+yname = prompt("what's your name?");
+alert("Hey!!!,Nice to meet you "+yname);
+
 alert("Info + Hint🤖 : the reset button that you are looking for is already in the web-page🤪you just have to find it that's the main game!!!");
 alert("Let's do this your game starts now : find the reset button and make the value ZERO 🤡");
 
@@ -63,10 +66,7 @@ button.addEventListener('click', function() {
 
 let body = document.body;
 body.addEventListener('click', function() {
-    if(v==1) {
-        console.log("congrats");
-    }
-    else {
-        alert("Soo close😭Try again :) !!! ");
+    if(v==0) {
+        alert("Soo Close :) Try Again!!!");
     }
 });
