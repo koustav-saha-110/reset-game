@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'MonumentExtended-Regular';
+    src: url('monument-extended/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf');
+}
+
+* {
+    margin: 0;
+    padding : 0;
+    font-family: 'MonumentExtended-Regular';
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+}
+
+#reset {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 12px 28px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    transition: all ease-in-out 0.3s;
+}
+
+#reset:hover {
+    opacity: 0.5;
+    transform: rotate(10deg);
+}
+
+#content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#text {
+    margin-bottom: 10px;
+    color: hsla(178, 71%, 58%, 0.608);
+    animation-name: blink;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink {
+    0% {
+        color: hsla(178, 71%, 58%, 0.608);
+        opacity: 1;
+    }
+
+    50% {
+        color: hsla(0, 0%, 0%, 0.608);
+    }
+    
+    100% {
+        color: rgb(0, 164, 159);
+    }
+}
+
+#click-me {
+    padding: 18px 28px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: hsla(0, 1%, 15%, 0.889);
+    color: white;
+    animation-name: rotateee;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#click-me:active {
+    opacity: 0;
+}
+
+@keyframes rotateee {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
