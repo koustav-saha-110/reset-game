@@ -1,5 +1,5 @@
-alert("Info + Hint : the reset button that you are looking for is already in the web-page you just have to find it that's the main game!!!");
-alert("Let's do this your game starts now : find the reset button and make the value ZERO");
+alert("Info + Hint🤖 : the reset button that you are looking for is already in the web-page🤪, you just have to find it that's the main game!!!");
+alert("Let's do this your game starts now : find the reset button and make the value ZERO 🤡");
 
 let initialvalue = 0;
 
@@ -42,10 +42,15 @@ rbutton.addEventListener('click', function() {
     rbutton.style.backgroundColor = 'black';
     rbutton.style.color = 'white';
     button.innerHTML = initialvalue;
-    alert("Let's gooo you have founded the reset button..if you want to play again, make sure that you should refresh the page to play again and find the reset button again!!!");
+    alert("Let's gooo 🏆 you have founded the reset button🕺..if you want to play again, make sure that you should refresh the page to play again and find the reset button again!!!");
 });
 
 button.addEventListener('click', function() {
     rbutton.style.backgroundColor = 'transparent';
     rbutton.style.color = 'transparent';
+});
+
+let body = document.body;
+body.addEventListener('click', function() {
+    alert("Soo Close😭Try Again :) !!!");
 });
