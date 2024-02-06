@@ -11,6 +11,7 @@ let pr = Math.round(Math.random()*(160)+110);
 let pt = Math.round(Math.random()*(100)+100);
 
 let currentvalue = 0;
+let v = 0;
 
 // creating the reset button and positioning it randomly inside the page
 let rbutton = document.createElement('button');
@@ -46,6 +47,7 @@ rbutton.addEventListener('click', function() {
     rbutton.style.color = 'white';
     button.innerHTML = initialvalue;
     alert("Let's gooo 🏆 you have founded the reset button🕺..if you want to play again, make sure that you should refresh the page to play again and find the reset button again!!!");
+    alert("You have founded the RESET button in "+v+" attempts");
 });
 
 button.addEventListener('click', function() {
@@ -60,4 +62,9 @@ button.addEventListener('click', function() {
     }
     rbutton.style.backgroundColor = 'transparent';
     rbutton.style.color = 'transparent';
+});
+
+let body = document.body;
+body.addEventListener('click', function() {
+    v += 1;
 });
