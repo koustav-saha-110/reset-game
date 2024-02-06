@@ -23,3 +23,6 @@ button.addEventListener('click', function() {
     reset.style.backgroundColor = 'transparent';
     reset.style.color = 'transparent';
 });
+
+alert("Info + Hint : the reset button that you are looking for is already in the web-page you just have to find it that's the main game!!!");
+alert("Let's do this you game starts now : find the reset button and make the value ZERO");
