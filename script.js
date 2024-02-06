@@ -62,6 +62,9 @@ button.addEventListener('click', function() {
     else if (currentvalue == 15) {
         alert("Are you an Idiot!!!");
     }
+    else if (currentvalue == 20) {
+        alert("The RESET button is on the upper side of the text(find and click....), inside the white space!!");
+    }
     rbutton.style.backgroundColor = 'transparent';
     rbutton.style.color = 'transparent';
 });
