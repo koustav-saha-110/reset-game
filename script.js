@@ -1,6 +1,8 @@
-yname = prompt("Hey..What's your name?");
+alert("Hey!!!");
+yname = prompt("What's your name?");
 alert("Hey!!!,Nice to meet you "+yname);
 
+// showing the informations that what to do
 alert("Info + Hint🤖 : the reset button that you are looking for is already in the web-page🤪you just have to find it that's the main game!!!");
 alert("Let's do this your game starts now : find the reset button and make the value ZERO 🤡");
 
