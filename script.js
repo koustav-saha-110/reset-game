@@ -9,8 +9,8 @@ alert("Let's do this your game starts now : find the reset button and make the v
 let initialvalue = 0;
 
 // getting the random number using random builtin functions
-let pr = Math.round(Math.random()*(190)+110);
-let pt = Math.round(Math.random()*(400)+100);
+let pr = Math.round(Math.random()*(200)+110);
+let pt = Math.round(Math.random()*(800)+100);
 
 console.log(pr);
 console.log(pt);
@@ -66,7 +66,7 @@ button.addEventListener('click', function() {
         alert("Are you an Idiot!!!");
     }
     else if (currentvalue == 20) {
-        alert("The RESET button is on the upper side of the text(find and click....), inside the white space!!");
+        alert("The RESET button is on the upper or lower side of the text(find and click....), inside the white space!!");
     }
     rbutton.style.backgroundColor = 'transparent';
     rbutton.style.color = 'transparent';
