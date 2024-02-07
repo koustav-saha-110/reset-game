@@ -10,7 +10,7 @@ let initialvalue = 0;
 
 // getting the random number using random builtin functions
 let pr = Math.round(Math.random()*(190)+110);
-let pt = Math.round(Math.random()*(200)+100);
+let pt = Math.round(Math.random()*(400)+100);
 
 console.log(pr);
 console.log(pt);
