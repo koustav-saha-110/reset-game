@@ -9,8 +9,11 @@ alert("Let's do this your game starts now : find the reset button and make the v
 let initialvalue = 0;
 
 // getting the random number using random builtin functions
-let pr = Math.round(Math.random()*(160)+110);
-let pt = Math.round(Math.random()*(100)+100);
+let pr = Math.round(Math.random()*(190)+110);
+let pt = Math.round(Math.random()*(200)+100);
+
+console.log(pr);
+console.log(pt);
 
 let currentvalue = 0;
 let v = 0;
